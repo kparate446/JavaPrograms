@@ -2,7 +2,7 @@ package com.bridgelabz.junit;
 import com.bridgelabz.utility.Utility;
 public class DayOfWeek {
 	public static void main(String[] args) {
-		int d=0,m=0,y=0,x;
+		int d=0,m=0,y=0;
 		System.out.println("Enter the day-");
 		d=Utility.inputNumber();
 		System.out.println("Enter the month-");

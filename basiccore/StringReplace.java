@@ -1,7 +1,7 @@
 /*
-  created by: Krunal Parate
-  Date 10/01/2020
-  Problem Statement: User Input and Replace String Template “Hello <<UserName>>, How are you?”
+  @ created by: Krunal Parate
+  @ Date 10/01/2020
+  @ Problem Statement: User Input and Replace String Template “Hello <<UserName>>, How are you?”
  **/
 package com.bridgelabz.basiccore;
 import com.bridgelabz.utility.Utility;

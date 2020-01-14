@@ -10,13 +10,10 @@ public class GamblerGame {
 		int Trial=Utility.inputNumber();
 		int winCount=Utility.gambler(stack, goal, Trial);
 		int lossCount = Trial - winCount;
-		String wins;
 		int winPercentage = Utility.winPerc(winCount,Trial);
 		int lossPercentage = Utility.lossPerc(lossCount,Trial);
 		// Display the Percentage
 		System.out.println("Percentage of Wins : " +winPercentage);
 		System.out.println("Percentage of Loss : " +lossPercentage);
 	}
-	
-//		S
 }
