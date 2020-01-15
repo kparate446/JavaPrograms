@@ -18,6 +18,7 @@ public class PrimeFactors {
 		}catch(Exception e) {
 			System.out.println("Exception:"+"Please Enter the Number");
 		}
+		
 		int x=N;
 		int k=Utility.primeFactors(x);
 		System.out.println(k);
