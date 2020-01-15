@@ -9,8 +9,13 @@ public class HarmonicNumber {
 	public static void main(String args[]) {
 //		HarmonicNumber sc=new HarmonicNumber();
 		System.out.println("Enter the Number");
-		int N=Utility.inputNumber();
-		double K=(int) Utility.harmonic(N);
+		int N=0;
+		try {
+		N=Utility.inputNumber();
+		}catch(Exception e) {
+			System.out.println("Exception:"+"Please Enter the Number");
+		}
+		double K= Utility.harmonic(N);
 		System.out.println(K);
 	}
 }

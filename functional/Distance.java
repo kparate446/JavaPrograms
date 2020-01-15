@@ -7,8 +7,13 @@ package com.bridgelabz.functional;
 import com.bridgelabz.utility.Utility;
 public class Distance {
 	public static void main(String[] args) {
-		int x=Integer.parseInt(args[0]);
-		int y=Integer.parseInt(args[1]);
+		int x=0,y=0;
+		try {
+			x=Integer.parseInt(args[0]);
+			y=Integer.parseInt(args[1]);
+		}catch(Exception e) {
+			System.out.println("Exception:"+"Please Enter the Number");
+		}
 		double d=Utility.getDistance(x, y);
 		System.out.println(d);
 	}

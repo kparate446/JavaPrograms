@@ -4,7 +4,7 @@ public class StringAnagram {
 	public static void main(String[] args) {
 		String s1="Anagram";
 		String s2="naramgA";
-		boolean s=Utility.Anagram(s1,s2);
+		boolean s=Utility.anagram(s1,s2);
 		System.out.println(s);
 	}
 }

@@ -4,7 +4,7 @@ public class Sqrt {
 	public static void main(String[] args) {
 		System.out.println("Enter the number");
 		int num=Utility.inputNumber();
-		double s=Utility.Sqrt(num);
+		double s=Utility.sqrt(num);
 		System.out.println(s);
 	}
 }

@@ -5,7 +5,7 @@ public class Binary {
 		int arr[]=new int[10];
 		System.out.println("Enter the number");
 		int n=Utility.inputNumber();
-		Utility.BinaryNum(arr,n);
+		Utility.binaryNum(arr,n);
 	}
 
 }

@@ -9,8 +9,8 @@ public class MonthlyPayment {
 		System.out.println("Enter the Rate");
 		int rate=Utility.inputNumber();
 		int r=Utility.rateInterest(rate);
-		int n=Utility.Year(year);
-		int payment=Utility.Payment(principle, r, n);
+		int n=Utility.year(year);
+		int payment=Utility.payment(principle, r, n);
 		int interest=Utility.interest(payment, n, principle);
 		System.out.println("Monthly payment"+payment);
 		System.out.println("Interest"+interest);

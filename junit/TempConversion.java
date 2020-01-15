@@ -9,12 +9,12 @@ public class TempConversion {
 		case 1:System.out.println("Enter Fahrenheit temperature");
 			f=Utility.inputDouble();
 //			c=(f-32)*5/9;
-			 c=Utility.FahrenheitToCelsius(f);
+			 c=Utility.fahrenheitToCelsius(f);
 			System.out.println("Celsius temperature is"+c);
 			break;
 		case 2:System.out.println("Enter Celsius temperature");
 			c=Utility.inputDouble();
-			f=Utility.CelsiusToFahrenheit(c);
+			f=Utility.celsiusToFahrenheit(c);
 			System.out.println("Fahrenheit temperature is"+f);
 			break;
 		default:System.out.println("Please choose valid choice");

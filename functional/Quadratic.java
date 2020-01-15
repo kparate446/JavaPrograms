@@ -8,11 +8,26 @@ import com.bridgelabz.utility.Utility;
 public class Quadratic {
 	public static void main(String[] args) {
 		System.out.println("Enter the A Value");
-		double a=Utility.inputNumber();
+		double a=0;
+		try {
+			a=Utility.inputDouble();
+		}catch(Exception e) {
+			System.out.println("Exception:"+"Please Enter the Number");
+		}
 		System.out.println("Enter the B Value");
-		double b=Utility.inputNumber();
+		double b=0;
+		try {
+			b=Utility.inputDouble();
+		}catch(Exception e) {
+			System.out.println("Exception:"+"Please Enter the Number");
+		}
 		System.out.println("Enter the C Value");
-		double c=Utility.inputNumber();
+		double c=0;
+		try {
+			c=Utility.inputDouble();
+		}catch(Exception e) {
+			System.out.println("Exception:"+"Please Enter the Number");
+		}
 		Utility.getRoots(a, b, c);
 	}
 }

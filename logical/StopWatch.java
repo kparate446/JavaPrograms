@@ -2,14 +2,18 @@ package com.bridgelabz.logical;
 import com.bridgelabz.utility.Utility;
 public class StopWatch {
 	public static void main(String args[]) {
-		int choice;
+		int choice=0;
 		long start=0,end=0;
 		int s=0;
 		System.out.println("Enter the Choice");
 		System.out.println("1.Start the Stopwatch");
 		System.out.println("2.End the Stopwatch");
 		do {
+			try {
 			choice=Utility.inputNumber();
+			}catch(Exception e) {
+				System.out.println("Exception:"+"Please Enter the Number");
+			}
 			if(choice==1 && s==0) {
 				choice=1;
 				
@@ -36,6 +40,6 @@ public class StopWatch {
 				break;
 			}
 		}while(s==1 && choice<=2);
-		System.out.println("Time that elpases between the start & end clicks:-1"+(end-start)+"  Milisecond");
+		System.out.println("Time that elpases between the start & end clicks: 1"+(end-start)+"  Milisecond");
 	}
 }
